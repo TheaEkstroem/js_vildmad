@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Foraging Plant Quiz</h1>
+
+  <form id="quizForm">
+    <h3>Question 1: Is Chanterelle a foraging mushroom?</h3>
+    <label>
+      <input type="radio" name="q1" value="correct"> True
+    </label>
+    <label>
+      <input type="radio" name="q1" value="incorrect"> False
+    </label>
+
+    <h3>Question 2: Is Dandelion a foraging herb?</h3>
+    <label>
+      <input type="radio" name="q2" value="correct"> True
+    </label>
+    <label>
+      <input type="radio" name="q2" value="incorrect"> False
+    </label>
+
+    <button type="submit" onclick="checkAnswers()">Submit</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>

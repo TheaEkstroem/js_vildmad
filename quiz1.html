@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <form id="quizForm" netlify>
+      <h2>Question 1: What is the capital of France?</h2>
+      <input type="radio" name="q1" value="a"> a) Paris<br>
+      <input type="radio" name="q1" value="b"> b) London<br>
+      <input type="radio" name="q1" value="c"> c) Madrid<br>
+      
+      <h2>Question 2: Who painted the Mona Lisa?</h2>
+      <input type="radio" name="q2" value="a"> a) Leonardo da Vinci<br>
+      <input type="radio" name="q2" value="b"> b) Pablo Picasso<br>
+      <input type="radio" name="q2" value="c"> c) Vincent van Gogh<br>
+      
+      <h2>Question 3: What is the largest planet in our solar system?</h2>
+      <input type="radio" name="q3" value="a"> a) Jupiter<br>
+      <input type="radio" name="q3" value="b"> b) Earth<br>
+      <input type="radio" name="q3" value="c"> c) Saturn<br>
+      
+      <br>
+      <input type="submit" value="Submit Quiz">
+    </form>
+    
+    <script src="quiz1.js"></script>
+</body>
+</html>
